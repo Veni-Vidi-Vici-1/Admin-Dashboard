@@ -1,0 +1,394 @@
+body {
+
+margin: 0;
+padding: 0;
+background-color: #a5d5dd;
+padding: 24px;
+width: 100vw;
+height: 100vh;
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+main {
+
+border-radius: 24px;
+background-color: #c9e2e8;
+height: 118vh;
+width: 96vw;
+display: flex;
+
+}
+
+.left-side {
+
+
+
+}
+
+h3 {
+
+font-size: 22px;
+
+}
+
+h3 span {
+
+color:#cd5c5c;
+
+}
+
+.Logo {
+
+display: flex;
+padding: 24px;
+
+}
+
+.toggle-pages {
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+.page {
+width: 8rem;
+border-radius: 12px;
+display: flex;
+align-items: center;
+background-color: #9fd5e2;
+padding: 8px;
+margin-left: 1.8rem;
+margin-bottom:0.8rem;
+}
+
+.page img {
+
+width: 2.4rem;
+margin-right: 0.6rem;
+
+}
+
+.page p {
+
+font-weight: bold;
+color: #1DA1F2;
+
+}
+
+.head-section {
+
+border-radius: 12px;
+
+}
+
+.top-head {
+
+    display: flex;
+    justify-content: space-between;
+    width: 77vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.bottom-head {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+
+.left-bottom-head {
+
+display: flex;
+align-items: center;
+
+}
+
+.greeting {
+
+margin-left: 1rem;
+
+}
+
+
+
+input {
+
+background: url(Images/Search.svg) no-repeat scroll 7px 14px;
+background-repeat: no-repeat;
+border-radius: 12px;
+padding: 0.6rem;
+text-indent: 1.9rem;
+border: 0px solid;
+background-color: rgb(162, 227, 241);
+color: gray;
+font-size: 1rem;
+
+}
+
+input::placeholder {
+
+color: gray;
+font-size: 1rem;
+
+}
+
+input:focus {
+
+outline: none;
+}
+
+.profile {
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.ProfileName {
+
+font-weight: bold;
+
+}
+
+.ImageWrapper {
+
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.profile {
+
+display: flex;
+justify-content: space-around;
+width: 18rem;
+
+}
+
+.pname {
+
+font-weight: bold;
+
+
+}
+
+.right-bottom-head button {
+
+width: 5rem;
+height: 1.9rem;
+background-color: #1DA1F2;
+border: none;
+margin-right: 1rem;
+margin-left: 1rem;
+border-radius: 12px;
+color: white;
+}
+
+hr {
+
+border: 1px solid black;
+
+}
+
+.title {
+
+display: flex;
+justify-content: space-between;
+width: 60vw;
+
+}
+
+.projects {
+
+display: grid;
+grid-template-columns: 140px 140px 140px;
+grid-template-rows: 280px;
+
+}
+
+
+.project-Image {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Rock-Paper-Scissors-3.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.project-Image {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Movies-App.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+    
+    }
+.project-Image1 {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Sign-Up.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+        
+}
+.project-Image2 {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Memory\ Game.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+            
+}
+.project-Image3 {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Todo-App.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+                
+}
+.project-Image4 {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Rock\ Paper\ Scissors\ 2.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+                    
+}
+.project-Image5 {
+
+border: 1px solid black;
+width: 6.5rem;
+height: 10rem;
+border-radius: 12px;
+background: url(ProjectSamples/Etch-a-Sketch.png) no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+                        
+}
+
+.vl {
+
+border-left: 2px solid indianred;
+height: 20px;
+
+}
+
+.icons {
+
+display: flex;
+align-items: center;
+
+
+
+}
+
+.icons img {
+
+margin-right: 0.4rem;
+margin-left: 0.4rem;
+
+}
+
+.container {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.anouncements {
+
+width: 26rem;
+height: 14rem;
+border-radius: 12px;
+background-color: #9fd5e2;
+box-shadow: 1px 1px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.anouncements hr {
+
+width: 100%;
+
+}
+
+.header {
+
+font-weight: bold;
+
+}
+
+@keyframes rotate{
+
+from {transform: rotate(-360deg);}
+to{transform: rotate(360deg);}
+}
+
+.rotating-circle {
+
+width: 200px;
+height: 200px;
+animation-name: rotate;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+
+
+
+}
+
